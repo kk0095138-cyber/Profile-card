@@ -23,8 +23,7 @@
     text-align: center;
     border: 1px solid #e5e7eb;
     overflow-y: hidden;
-    width:50%;
-    max-width:400px;
+
 
 }
 
@@ -129,6 +128,12 @@ h3
     color: white;
     transition: 0.4s;
 }
+@media (max-width:412px) {
+    .photo1 {
+        width:50%;
+    }
+}
+        
 
 
 
